@@ -82,7 +82,7 @@ export const Hero: React.FC = () => {
           transition={{ duration: 0.7, delay: 0.4, ease: "easeOut" }}
           className="text-sm sm:text-base text-slate-400 max-w-2xl font-light leading-relaxed mb-6"
         >
-          Specializing in Generative AI, LLM applications, AI-powered solutions, computer vision, and creative AI workflows.
+          Specializing in Generative AI, LLM fine-tuning, agentic workflow automation, LangChain, and deploying production-ready AI applications.
         </motion.p>
 
         {/* Secondary Subtitle */}

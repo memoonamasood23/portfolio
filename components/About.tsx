@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Cpu, Sparkles, Film, CheckCircle2 } from "lucide-react";
+import { Cpu, Sparkles, Film, CheckCircle2, Workflow } from "lucide-react";
 import { portfolioData } from "@/data/portfolio";
 import { Container } from "./ui/Container";
 import { SectionHeader } from "./ui/SectionHeader";
@@ -10,8 +10,8 @@ import { GlowCard } from "./ui/GlowCard";
 
 export const About: React.FC = () => {
   const pillarIcons: Record<string, React.ReactNode> = {
-    "01": <Cpu className="w-6 h-6 text-indigo-400" />,
-    "02": <Sparkles className="w-6 h-6 text-sky-400" />,
+    "01": <Workflow className="w-6 h-6 text-indigo-400" />,
+    "02": <Cpu className="w-6 h-6 text-sky-400" />,
     "03": <Film className="w-6 h-6 text-violet-400" />,
   };
 
@@ -51,10 +51,10 @@ export const About: React.FC = () => {
 
               <div className="mt-6 pt-6 border-t border-white/[0.08] flex flex-wrap gap-4 text-xs font-mono text-slate-400">
                 <span className="flex items-center gap-1.5 text-indigo-300">
-                  <CheckCircle2 className="w-4 h-4 text-indigo-400" /> Generative AI & LLMs
+                  <CheckCircle2 className="w-4 h-4 text-indigo-400" /> Agentic Workflows & n8n
                 </span>
                 <span className="flex items-center gap-1.5 text-sky-300">
-                  <CheckCircle2 className="w-4 h-4 text-sky-400" /> Computer Vision
+                  <CheckCircle2 className="w-4 h-4 text-sky-400" /> LLMs & Fine-Tuning
                 </span>
                 <span className="flex items-center gap-1.5 text-violet-300">
                   <CheckCircle2 className="w-4 h-4 text-violet-400" /> AI Video Direction

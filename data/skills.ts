@@ -8,93 +8,81 @@ export interface SkillCategory {
 
 export const skillsData: SkillCategory[] = [
   {
-    id: "generative-ai",
-    name: "Generative AI & LLMs",
-    description: "Core specialization in modern Foundation Models, agentic workflows, and fine-tuning.",
+    id: "ai-ml",
+    name: "AI / ML & Generative AI",
+    description: "Generative AI systems, LLM fine-tuning, prompt engineering, and model evaluation.",
     iconName: "Sparkles",
     skills: [
       "Generative AI",
       "LLMs",
+      "LangChain",
       "Prompt Engineering",
       "LLM Fine-tuning",
-      "RAG",
-      "AI Agents",
-      "AI Chatbots",
-      "Google Gemini",
-      "LLaMA"
-    ]
-  },
-  {
-    id: "ai-ml",
-    name: "AI & Machine Learning",
-    description: "Theoretical and applied machine learning, neural architectures, and vision systems.",
-    iconName: "BrainCircuit",
-    skills: [
-      "Machine Learning",
       "Deep Learning",
       "Computer Vision",
-      "Natural Language Processing",
       "Model Evaluation"
     ]
   },
   {
+    id: "automation",
+    name: "Automation & AI Agents",
+    description: "Autonomous agentic workflows, n8n orchestration, and multi-service webhook integrations.",
+    iconName: "Workflow",
+    skills: [
+      "n8n",
+      "AI Agents",
+      "Workflow Automation",
+      "Webhook Integrations",
+      "Error-Handling Workflows"
+    ]
+  },
+  {
+    id: "web-dev",
+    name: "Web & Backend",
+    description: "High-performance API backends, modern server architectures, and interactive client UIs.",
+    iconName: "Layers",
+    skills: [
+      "FastAPI",
+      "Node.js",
+      "React"
+    ]
+  },
+  {
     id: "programming",
-    name: "Programming Languages",
-    description: "Multi-paradigm programming languages for high-performance computing and scripting.",
+    name: "Languages",
+    description: "Core programming languages for machine learning, backend services, and algorithmic systems.",
     iconName: "Code2",
     skills: [
       "Python",
       "Java",
-      "C",
-      "C++",
+      "C/C++",
       "JavaScript",
       "SQL"
     ]
   },
   {
-    id: "web-dev",
-    name: "Web & AI Backend",
-    description: "Building resilient microservices, high-throughput APIs, and reactive interfaces.",
-    iconName: "Layers",
-    skills: [
-      "FastAPI",
-      "Node.js",
-      "React",
-      "Next.js"
-    ]
-  },
-  {
     id: "databases",
     name: "Databases & Storage",
-    description: "Relational data structures, document stores, and vector database foundations.",
+    description: "Relational, document, and cloud backend databases for stateful applications.",
     iconName: "Database",
     skills: [
       "SQL",
-      "NoSQL"
+      "NoSQL",
+      "Supabase"
     ]
   },
   {
-    id: "ai-creative",
-    name: "AI Creative & Video Tools",
-    description: "Cinematic AI pipelines, audio synthesis, generative visuals, and post-production.",
+    id: "video-editing",
+    name: "Video Editing & Creative AI",
+    description: "Cinematic generative video workflows, voice synthesis, and dynamic motion design.",
     iconName: "Video",
     skills: [
-      "Google Flow",
       "Runway ML",
       "CapCut AI",
       "ElevenLabs",
+      "Google Flow",
       "After Effects",
-      "Getty Images",
-      "Envato Elements"
-    ]
-  },
-  {
-    id: "automation",
-    name: "Workflow Automation",
-    description: "Automating multi-step AI triggers, webhooks, and asynchronous batch jobs.",
-    iconName: "Workflow",
-    skills: [
-      "n8n"
+      "Motion Graphics"
     ]
   }
 ];

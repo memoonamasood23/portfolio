@@ -19,10 +19,10 @@ export interface CertificationItem {
 export const educationData: EducationItem = {
   id: "bahria-bsc-ai",
   degree: "B.Sc. Artificial Intelligence",
-  institution: "Bahria University",
+  institution: "Bahria University, Islamabad",
   location: "Islamabad, Pakistan",
   duration: "2021 – 2025",
-  badge: "Graduated 2025",
+  badge: "Class of 2025",
   description: "Comprehensive study in artificial intelligence, neural networks, machine learning algorithms, computer vision, data structures, and mathematics for computing."
 };
 

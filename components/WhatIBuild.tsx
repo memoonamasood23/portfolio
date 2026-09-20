@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Sparkles, Bot, Eye, Clapperboard, ArrowUpRight } from "lucide-react";
+import { Workflow, Sparkles, Layers, Clapperboard, ArrowUpRight } from "lucide-react";
 import { portfolioData } from "@/data/portfolio";
 import { Container } from "./ui/Container";
 import { SectionHeader } from "./ui/SectionHeader";
@@ -10,9 +10,9 @@ import { GlowCard } from "./ui/GlowCard";
 
 export const WhatIBuild: React.FC = () => {
   const cardIcons: Record<string, React.ReactNode> = {
-    "01": <Sparkles className="w-6 h-6 text-indigo-400" />,
-    "02": <Bot className="w-6 h-6 text-sky-400" />,
-    "03": <Eye className="w-6 h-6 text-emerald-400" />,
+    "01": <Workflow className="w-6 h-6 text-indigo-400" />,
+    "02": <Sparkles className="w-6 h-6 text-sky-400" />,
+    "03": <Layers className="w-6 h-6 text-emerald-400" />,
     "04": <Clapperboard className="w-6 h-6 text-violet-400" />,
   };
 
