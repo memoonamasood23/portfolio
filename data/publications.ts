@@ -26,7 +26,7 @@ export const publicationsData: PublicationItem[] = [
     type: "Conference Paper",
     description: "Presents Low-Rank Singular Value Decomposition (SVD) compression for Transformer attention, significantly reducing memory footprint while preserving representational fidelity.",
     googleScholarUrl: "https://scholar.google.com/citations?user=placeholder-memoona-masood",
-    paperUrl: "https://doi.org/placeholder-10.1109/ICIC.2025.placeholder",
+    paperUrl: "https://ieeexplore.ieee.org/abstract/document/11413215",
     topics: [
       "Transformer Architecture",
       "Singular Value Decomposition (SVD)",

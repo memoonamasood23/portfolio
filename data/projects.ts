@@ -113,8 +113,8 @@ export const projectsData: ProjectItem[] = [
       "MS Teams Webhooks",
       "Nodemailer"
     ],
-    githubUrl: "https://github.com/memoonamasood23",
-    demoUrl: "https://github.com/memoonamasood23",
+    githubUrl: "https://github.com/memoonamasood23/ai-book-generation-system",
+    demoUrl: "https://github.com/memoonamasood23/ai-book-generation-system",
     architecture: {
       badge: "THREE_STAGE_LLM_PIPELINE",
       steps: [
@@ -168,8 +168,8 @@ export const projectsData: ProjectItem[] = [
       "CSV Automation",
       "Data Validation"
     ],
-    githubUrl: "https://github.com/memoonamasood23",
-    demoUrl: "https://github.com/memoonamasood23",
+    githubUrl: "https://github.com/memoonamasood23/invoice-automation",
+    demoUrl: "https://github.com/memoonamasood23/invoice-automation",
     architecture: {
       badge: "DETERMINISTIC_FINANCIAL_PIPELINE",
       steps: [
@@ -198,108 +198,108 @@ export const projectsData: ProjectItem[] = [
       ]
     }
   },
-  {
-    id: "ai-customer-support-agent",
-    number: "04",
-    title: "AI CUSTOMER SUPPORT AGENT",
-    tagline: "Autonomous n8n Support Agent with Error-Handling Workflows & Webhooks",
-    description: "An autonomous customer support agent built in n8n that understands incoming customer queries, conducts intent classification, and generates accurate, context-aware responses in real time with resilient error recovery.",
-    isFeatured: false,
-    badge: "Agentic Automation",
-    category: "agentic",
-    highlights: [
-      "Designed and deployed an autonomous customer support agent in n8n understanding incoming queries in real time",
-      "Generates accurate, context-aware responses using integrated LLM reasoning and prompt workflows",
-      "Built a dedicated error-handling module to gracefully manage API failures, invalid inputs, and edge cases",
-      "Automated first-response query handling, reducing manual support workload and ensuring 24/7 consistency"
-    ],
-    technologies: [
-      "n8n",
-      "LLM Integration",
-      "Webhooks",
-      "Error-Handling Workflows",
-      "Context Memory"
-    ],
-    githubUrl: "https://github.com/memoonamasood23",
-    demoUrl: "https://github.com/memoonamasood23",
-    architecture: {
-      badge: "AUTONOMOUS_N8N_WORKFLOW",
-      steps: [
-        {
-          label: "Incoming Query Ingestion",
-          sublabel: "Webhook Listener & Sanitizer",
-          status: "24/7 Active",
-          iconName: "Workflow"
-        },
-        {
-          label: "LLM Context-Aware Reasoning",
-          sublabel: "Intent Classification & Prompt Flow",
-          status: "Contextual Response",
-          iconName: "Cpu"
-        },
-        {
-          label: "Dedicated Error-Handling Guard",
-          sublabel: "Fallback Handling & API Recovery",
-          status: "Zero-Downtime",
-          iconName: "Layers"
-        }
-      ],
-      metrics: [
-        { label: "Response Mode", value: "Real-Time Streaming" },
-        { label: "Resilience", value: "Auto Fallback" }
-      ]
-    }
-  },
-  {
-    id: "ai-lead-qualifier-agent",
-    number: "05",
-    title: "AI LEAD QUALIFIER AGENT",
-    tagline: "Intelligent Lead Scoring & Sales Pipeline Routing via CRM Webhooks",
-    description: "An intelligent lead-qualification agent that automatically scores and filters incoming leads using natural language understanding to assess buyer intent, budget fit, and deal quality.",
-    isFeatured: false,
-    badge: "Sales AI Agent",
-    category: "agentic",
-    highlights: [
-      "Built an intelligent lead-qualification agent that automatically scores and filters incoming leads using natural language understanding",
-      "Assesses intent, urgency, and budget quality from inbound inquiries",
-      "Automated routing of qualified leads directly into sales pipelines via CRM webhooks",
-      "Delivered as part of a detailed masterclass workflow demonstrating scalable multi-step lead-nurturing logic"
-    ],
-    technologies: [
-      "n8n",
-      "LLM Integration",
-      "CRM Webhooks",
-      "Lead Scoring Logic",
-      "Pipeline Automation"
-    ],
-    githubUrl: "https://github.com/memoonamasood23",
-    demoUrl: "https://github.com/memoonamasood23",
-    architecture: {
-      badge: "LEAD_SCORING_ENGINE",
-      steps: [
-        {
-          label: "Inbound Prospect Parsing",
-          sublabel: "NLU Intent & Entity Extraction",
-          status: "Instant Score",
-          iconName: "Cpu"
-        },
-        {
-          label: "Multi-Factor Scoring Engine",
-          sublabel: "Budget, Urgency & Fit Evaluation",
-          status: "Automated Filter",
-          iconName: "Workflow"
-        },
-        {
-          label: "CRM Webhook Pipeline Dispatch",
-          sublabel: "Auto-Routing to Sales Pipeline",
-          status: "Pipeline Connected",
-          iconName: "Database"
-        }
-      ],
-      metrics: [
-        { label: "Screening Time", value: "Instant Routing" },
-        { label: "Conversion", value: "High Intent Priority" }
-      ]
-    }
-  }
+  // {
+  //   id: "ai-customer-support-agent",
+  //   number: "04",
+  //   title: "AI CUSTOMER SUPPORT AGENT",
+  //   tagline: "Autonomous n8n Support Agent with Error-Handling Workflows & Webhooks",
+  //   description: "An autonomous customer support agent built in n8n that understands incoming customer queries, conducts intent classification, and generates accurate, context-aware responses in real time with resilient error recovery.",
+  //   isFeatured: false,
+  //   badge: "Agentic Automation",
+  //   category: "agentic",
+  //   highlights: [
+  //     "Designed and deployed an autonomous customer support agent in n8n understanding incoming queries in real time",
+  //     "Generates accurate, context-aware responses using integrated LLM reasoning and prompt workflows",
+  //     "Built a dedicated error-handling module to gracefully manage API failures, invalid inputs, and edge cases",
+  //     "Automated first-response query handling, reducing manual support workload and ensuring 24/7 consistency"
+  //   ],
+  //   technologies: [
+  //     "n8n",
+  //     "LLM Integration",
+  //     "Webhooks",
+  //     "Error-Handling Workflows",
+  //     "Context Memory"
+  //   ],
+  //   githubUrl: "https://github.com/memoonamasood23",
+  //   demoUrl: "https://github.com/memoonamasood23",
+  //   architecture: {
+  //     badge: "AUTONOMOUS_N8N_WORKFLOW",
+  //     steps: [
+  //       {
+  //         label: "Incoming Query Ingestion",
+  //         sublabel: "Webhook Listener & Sanitizer",
+  //         status: "24/7 Active",
+  //         iconName: "Workflow"
+  //       },
+  //       {
+  //         label: "LLM Context-Aware Reasoning",
+  //         sublabel: "Intent Classification & Prompt Flow",
+  //         status: "Contextual Response",
+  //         iconName: "Cpu"
+  //       },
+  //       {
+  //         label: "Dedicated Error-Handling Guard",
+  //         sublabel: "Fallback Handling & API Recovery",
+  //         status: "Zero-Downtime",
+  //         iconName: "Layers"
+  //       }
+  //     ],
+  //     metrics: [
+  //       { label: "Response Mode", value: "Real-Time Streaming" },
+  //       { label: "Resilience", value: "Auto Fallback" }
+  //     ]
+  //   }
+  // },
+  // {
+  //   id: "ai-lead-qualifier-agent",
+  //   number: "05",
+  //   title: "AI LEAD QUALIFIER AGENT",
+  //   tagline: "Intelligent Lead Scoring & Sales Pipeline Routing via CRM Webhooks",
+  //   description: "An intelligent lead-qualification agent that automatically scores and filters incoming leads using natural language understanding to assess buyer intent, budget fit, and deal quality.",
+  //   isFeatured: false,
+  //   badge: "Sales AI Agent",
+  //   category: "agentic",
+  //   highlights: [
+  //     "Built an intelligent lead-qualification agent that automatically scores and filters incoming leads using natural language understanding",
+  //     "Assesses intent, urgency, and budget quality from inbound inquiries",
+  //     "Automated routing of qualified leads directly into sales pipelines via CRM webhooks",
+  //     "Delivered as part of a detailed masterclass workflow demonstrating scalable multi-step lead-nurturing logic"
+  //   ],
+  //   technologies: [
+  //     "n8n",
+  //     "LLM Integration",
+  //     "CRM Webhooks",
+  //     "Lead Scoring Logic",
+  //     "Pipeline Automation"
+  //   ],
+  //   githubUrl: "https://github.com/memoonamasood23",
+  //   demoUrl: "https://github.com/memoonamasood23",
+  //   architecture: {
+  //     badge: "LEAD_SCORING_ENGINE",
+  //     steps: [
+  //       {
+  //         label: "Inbound Prospect Parsing",
+  //         sublabel: "NLU Intent & Entity Extraction",
+  //         status: "Instant Score",
+  //         iconName: "Cpu"
+  //       },
+  //       {
+  //         label: "Multi-Factor Scoring Engine",
+  //         sublabel: "Budget, Urgency & Fit Evaluation",
+  //         status: "Automated Filter",
+  //         iconName: "Workflow"
+  //       },
+  //       {
+  //         label: "CRM Webhook Pipeline Dispatch",
+  //         sublabel: "Auto-Routing to Sales Pipeline",
+  //         status: "Pipeline Connected",
+  //         iconName: "Database"
+  //       }
+  //     ],
+  //     metrics: [
+  //       { label: "Screening Time", value: "Instant Routing" },
+  //       { label: "Conversion", value: "High Intent Priority" }
+  //     ]
+  //   }
+  // }
 ];
